@@ -1,0 +1,63 @@
+/*
+ body background - #ecf0f1
+ font-family: 'Open Sans', sans-serif;
+ cookie image is linked, but feel free to use your own if you want!
+ (card) box-shadow: 0 19px 38px rgba(0,0,0,0.20), 0 15px 12px rgba(0,0,0,0.22);  max-width: 900px;
+
+*/
+
+
+
+body {
+  background: #ecf0f1;
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+li {
+    list-style-type: square;
+
+}
+
+dt {
+  font-weight: 900;
+}
+
+h3 {
+  margin: 0;
+  font-weight: 100;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.20), 0 15px 12px rgba(0,0,0,0.22);  max-width: 900px;
+  margin: 0 auto;
+}
+
+.card-image {
+  background-image: url('./cookies.jpg');
+  background-size: cover;
+  height: 200px;
+  background-position: center;
+}
+
+.wrapper {
+  display: flex;
+    padding: 0 25px 25px 25px;
+
+}
+
+header {
+  padding: 10px 25px 0 25px;
+}
+
+section {
+  flex-basis: 50%;;
+} 
